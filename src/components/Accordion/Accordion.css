@@ -1,0 +1,26 @@
+.accordion {
+  width: 600px;
+  max-width: 90%;
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin: auto;
+}
+
+.accordion-item + .accordion-item {
+  /* Select an .accordion-item only 
+  when it immediately follows another .accordion-item. */
+  border-top: 0.5px solid rgb(243, 243, 242);
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 10px 12px;
+  border: 0.5px solid gray;
+  text-align: start;
+  cursor: pointer;
+}
+
+.accordion-content {
+  padding: 10px 10px;
+  border: 0.5px solid gray;
+}

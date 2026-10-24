@@ -21,6 +21,7 @@ import { MyAlert } from "./components/MyAlert/MyAlert";
 // import { ControlledContactForm } from "./components/ControlledContactForm/ControlledContactForm";
 // import { InfiniteScrollList } from "./components/InfiniteScroll/InfiniteScrollList";
 import { ContextApiEx } from "./components/ContextApiEx";
+import { Accordion } from "./components/Accordion/Accordion";
 function App() {
   // const user = {
   //   // imgSrc: avatarImg,
@@ -86,6 +87,7 @@ function App() {
         {/* <ControlledContactForm /> */}
         {/* <InfiniteScrollList /> */}
         <ContextApiEx />
+        <Accordion />
       </div>
 
       {/* <Counter />
