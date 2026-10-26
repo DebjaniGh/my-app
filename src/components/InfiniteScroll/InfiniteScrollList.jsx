@@ -7,6 +7,8 @@ export function InfiniteScrollList() {
   const [currPage, setCurrPage] = useState(1);
   const [loading, setLoading] = useState(false);
   const [hasMore, setHasMore] = useState(true);
+  // holds the IntersectionObserver across re-renders so the previous one can
+  // be disconnected, without triggering a re-render when it is reassigned
   const observerRef = useRef(null);
 
   /** lastItemRef depends on this fn, so it should not be cerated
