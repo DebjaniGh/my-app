@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.my-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 12px;
+  max-width: 600px;
+}
+
+.form-grp {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.form-grp label {
+  padding: 8px;
+  width: 100px;
+  flex-shrink: 0;
+}
+
+.form-grp input {
+  padding: 8px;
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.field-error {
+  color: #b00020;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+button {
+  padding: 8px;
+  margin-left: 132px;
+  width: 100px;
+  margin-top: 10px;
+}

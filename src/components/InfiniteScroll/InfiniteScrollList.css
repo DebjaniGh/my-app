@@ -1,0 +1,16 @@
+.container {
+  height: 500px;
+  width: 600px;
+  overflow: auto;
+}
+
+.list-item {
+  width: 100%;
+  padding: 16px;
+  border-bottom: 1px solid gray;
+}
+
+.p-content {
+  padding: 16px;
+  text-align: center;
+}
