@@ -23,6 +23,7 @@ import { MyAlert } from "./components/MyAlert/MyAlert";
 import { ContextApiEx } from "./components/ContextApiEx";
 import { Accordion } from "./components/Accordion/Accordion";
 import { SignupForm } from "./components/SignupForm/SignupForm";
+import { PostFeed } from "./components/SkeletonLoader/PostFeed";
 function App() {
   // const user = {
   //   // imgSrc: avatarImg,
@@ -89,7 +90,8 @@ function App() {
         {/* <InfiniteScrollList /> */}
         {/* <ContextApiEx /> */}
         {/* <Accordion /> */}
-        <SignupForm />
+        {/* <SignupForm /> */}
+        <PostFeed />
       </div>
 
       {/* <Counter />
