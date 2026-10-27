@@ -1,0 +1,19 @@
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search {
+  padding: 8px 10px;
+  margin: 10px auto;
+}
+
+button {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: rgb(125, 197, 248);
+  color: black;
+  font-weight: 600;
+}

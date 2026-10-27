@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+.product-list {
+  list-style: none;
+  margin: 0;
+  width: 100%;
+}
+
+.product {
+  padding: 10px 14px;
+  border: 0.8px solid #ccc;
+  border-radius: 6px;
+}

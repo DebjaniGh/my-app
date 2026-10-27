@@ -1,0 +1,14 @@
+.movie-container {
+  font-family: sans-serif;
+}
+
+.my-movies {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 6px;
+}
+
+input {
+  padding: 6px 8px;
+  margin-bottom: 8px;
+}
