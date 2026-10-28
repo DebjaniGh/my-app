@@ -2,6 +2,8 @@
 import { useState } from "react";
 import "./App.css";
 import { MyAlert } from "./components/MyAlert/MyAlert";
+import { TodoState } from "./components/ToDo/TodoState";
+import { TodoReducer } from "./components/ToDo/TodoReducer";
 // import { Header } from "./components/Header/Header";
 // import { Main } from "./components/mainC/Main"
 // import { ThemeContext } from "./context/ThemeContext";
@@ -20,10 +22,10 @@ import { MyAlert } from "./components/MyAlert/MyAlert";
 //import { Tabs } from "./components/Tabs/Tabs";
 // import { ControlledContactForm } from "./components/ControlledContactForm/ControlledContactForm";
 // import { InfiniteScrollList } from "./components/InfiniteScroll/InfiniteScrollList";
-import { ContextApiEx } from "./components/ContextApiEx";
-import { Accordion } from "./components/Accordion/Accordion";
-import { SignupForm } from "./components/SignupForm/SignupForm";
-import { PostFeed } from "./components/SkeletonLoader/PostFeed";
+// import { ContextApiEx } from "./components/ContextApiEx";
+// import { Accordion } from "./components/Accordion/Accordion";
+// import { SignupForm } from "./components/SignupForm/SignupForm";
+
 function App() {
   // const user = {
   //   // imgSrc: avatarImg,
@@ -91,7 +93,6 @@ function App() {
         {/* <ContextApiEx /> */}
         {/* <Accordion /> */}
         {/* <SignupForm /> */}
-        <PostFeed />
       </div>
 
       {/* <Counter />
@@ -109,6 +110,8 @@ function App() {
         <Header />
         <Main />
       </AuthContext.Provider> */}
+      {/* <TodoState /> */}
+      <TodoReducer />
     </>
   );
 }
