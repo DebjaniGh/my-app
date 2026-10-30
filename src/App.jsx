@@ -1,9 +1,9 @@
-// import { useState } from "react";
 import { useState } from "react";
 import "./App.css";
-import { MyAlert } from "./components/MyAlert/MyAlert";
-import { TodoState } from "./components/ToDo/TodoState";
+// import { MyAlert } from "./components/MyAlert/MyAlert";
+// import { TodoState } from "./components/ToDo/TodoState";
 import { TodoReducer } from "./components/ToDo/TodoReducer";
+import { UserList } from "./components/UserList";
 // import { Header } from "./components/Header/Header";
 // import { Main } from "./components/mainC/Main"
 // import { ThemeContext } from "./context/ThemeContext";
@@ -112,6 +112,7 @@ function App() {
       </AuthContext.Provider> */}
       {/* <TodoState /> */}
       <TodoReducer />
+      <UserList />
     </>
   );
 }
